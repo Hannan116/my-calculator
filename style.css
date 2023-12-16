@@ -1,0 +1,104 @@
+/* reset and common starts  */
+:root {
+    --primary-color: #0766AD;
+    --secondary-color: #29ADB2;
+    --third-color: #C5E898;
+  --fourth-color: #F3F3F3;
+  --fifth-color: #393E46;
+  --sixth-color: #222831;
+  --seventh-color: #00ADB5;
+  --eighth-color: #F9ED69;
+  --ninth-color: F9ED69;
+  --tenth-color:1640D6;
+  
+    --padding: 0.5rem;
+    --transition: all 0.3s;
+    --border-radius: 0.6rem;
+    --box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.9);
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    outline: 0;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  .flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .flex-space-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .btn {
+    border:none;
+    border-radius: var(--border-radius);
+    font-size: 1rem;
+    padding: var(--padding);
+    cursor: pointer;
+    width: 55px ;
+    margin: .5rem;
+    text-transform: uppercase;
+    transition: var(--transition);
+    color:black;
+    font-weight: bold;
+  }
+   .btn:hover {
+    background-color: teal;
+  } 
+  .card {
+    box-shadow: var(--box-shadow);
+    border-radius: 25px;
+    transition: var(--transition);
+    padding: var(--padding);
+  }
+  .card:hover {
+    box-shadow: 0 20px 40px rgba(72, 78, 85, 0.6);
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  /* reset and common ends  */
+  .container {
+    height: 100vh;
+    background-color: #EEE;
+  }
+  .calculator {
+    background-color: var(--fifth-color);
+    color: white;
+    padding: 1rem;
+    width: 350px;
+    height: auto;
+  }
+  .display{
+
+}
+.display input {
+    width: 300px;
+    font-size: 1.5rem;
+    padding: var(--padding);
+    border-radius: var(--border-radius);
+    direction: rtl;
+   
+}
+.row-btn{
+    /* width: 300px; */
+}
+.operate-btn{
+    background-color: var(--eighth-color);
+}
+#equal {
+    width: 129px;
+}
